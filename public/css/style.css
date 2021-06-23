@@ -1,0 +1,147 @@
+body {
+  background-color: #C14040;
+  padding: 1em;
+  color: #EfE3E3;
+  font-weight: bold;
+}
+
+body p {
+  margin: 1em;
+}
+
+nav {
+  background-color: #EfE3E3;
+  border-radius: 1em;
+  margin: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .5em;
+}
+
+nav a {
+  color: #C14040;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 .5em;
+}
+
+nav span {
+  text-align: center;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* POKEMON */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  background-color: #982c2c;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em;
+  width: 25%;
+}
+
+.pokemon a {
+  color: #EfE3E3;
+  text-decoration: none;
+  text-align: center;
+}
+
+.pokemon img {
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}
+
+/* TYPES */
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.types div {
+  color: #EfE3E3;
+  text-decoration: none;
+  text-align: center;
+  margin: .5em;
+  padding: .3em ;
+  width: 22%;
+  border-radius: .5em;
+  display: flex;
+  justify-content: center;
+}
+
+.types a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* DETAIL POKEMON */
+
+.all-details {
+  display: flex;
+}
+
+.pokemon-type {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon-type div {
+  margin: 0 0.3em;
+  text-decoration: none;
+  text-align: center;
+  padding: .3em;
+  border-radius: .3em;
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-type a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #EfE3E3;
+}
+
+.fiche {
+  background-color: #982c2c;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em;
+  width: 50%;
+}
+
+.fiche div {
+  color: #EfE3E3;
+  text-decoration: none;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  margin: .5em 0;
+}
+
+.barre {
+  background-color: #632b2b;
+  width: 255px;
+  border-radius: .3em;
+  position: relative;
+  z-index: 1;
+}
+
+.stat-barre {
+  background-color: #EfE3E3;
+  border-radius: .3em;
+  position: absolute;
+  left: 0;
+  width: 100px;
+  z-index: 10;
+}
